@@ -56,5 +56,22 @@ print(width // 2)
 
 print("-------------------")
 
+a = "Python"
+b = "Py"
+b = b + "thon"
+print(a == b)
+print(a is b)
+
+print("-------------------")
+
+a = 1
+b = a
+print(a is b)
+print(a == b)
+c = 1
+print(c is a)
+
+print("-------------------")
+
 # PEMDAS
 print((1 + 2 / 4) + 3 * 2 ** 3)
